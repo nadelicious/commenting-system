@@ -1,0 +1,22 @@
+{
+  "name": "backbonejs",
+  "version": "0.0.0",
+  "description": "sample commenting-systen application with backbone.js ,node.js and mongoose",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.4.0",
+    "underscore": "~1.5.2",
+    "mongoose": "~3.6.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backbone/marionette",
+    "node.js",
+    "mongoose"
+  ],
+  "author": "Ronald Gemao",
+  "license": "BSD-2-Clause"
+}
