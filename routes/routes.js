@@ -42,7 +42,7 @@ exports.addComment = function(req,res){
 exports.updateVote = function(req,res){
 	var id = req.params.id;
 	var obj = {
-		votes: req.body.votes
+		points: req.body.points
 	};
 	comments.updateVote(id,obj,function(err,docs){
 		if(err){
